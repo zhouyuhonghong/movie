@@ -1,0 +1,8 @@
+{ "navigationBarTitleText": "影片库",
+  "usingComponents": {
+  "i-grid": "../../../static/dist/grid/index",
+  "i-grid-item": "../../../static/dist/grid-item/index",
+  "i-grid-icon": "../../../static/dist/grid-icon/index",
+  "i-grid-label": "../../../static/dist/grid-label/index"
+   }
+}
