@@ -1,13 +1,14 @@
 <template>
   <div >
     <i-grid i-class="no-border">
-    <i-grid-item v-for="grid in grids" :key="grid" i-class="no-border">
+      <i-grid-item @click="goType(grid)" v-for="grid in grids" :key="grid" i-class="no-border">
         <i-grid-icon>
-            <image src="grid.image" />
+            <image :src="grid.image" />
+            
         </i-grid-icon>
         <i-grid-label>{{grid.title}}</i-grid-label>
-    </i-grid-item>
-</i-grid>
+      </i-grid-item>
+    </i-grid>
 <i-panel :title="title_name">
     <view style="padding: 15px;">
       <i-card v-for="item in top" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
@@ -41,6 +42,11 @@ export default {
   },
 
   methods: {
+    goType(type){
+      console.log(type)
+      let url = '../list/main?type=' + type.title
+      mpvue.navigateTo({ url })
+    }
   },
 
   created () {
