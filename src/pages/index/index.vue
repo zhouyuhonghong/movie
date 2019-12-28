@@ -22,9 +22,9 @@ export default {
     return{
        imgUrls: [
         "http://photocdn.sohu.com/20120705/Img347309849.jpg",
-        'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
-        'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
-        'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
+        "http://spider.ws.126.net/2c576a6ab427c1e72b3cc02303807542.jpeg",
+        "http://img3.cache.netease.com/game/2010/11/30/20101130104206a3013.jpg",
+        "http://www.musiceol.com/news/html/2010-12/images/20101223214941973.jpg"
       ],
       indicatorDots: true,
       autoplay: true,
