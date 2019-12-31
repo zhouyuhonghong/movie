@@ -29,8 +29,8 @@ export default {
         {title:"爱情",image:"/static/images/1.png"},
         {title:"喜剧",image:"/static/images/1.png"},
         {title:"科幻",image:"/static/images/1.png"},
-        {title:"惊悚",image:"/static/images/1.png"},
-        {title:"犯罪",image:"/static/images/1.png"}
+        {title:"恐怖",image:"/static/images/1.png"},
+        {title:"战争",image:"/static/images/1.png"}
       ],
       top: [
         {name:"淘金记",actors:"查理·卓别林、佐治雅·凯尔等",image:"https://p1.ssl.qhimg.com/t0134ae84c70352997e.jpg",remark:"一个流浪汉从淘金到成为富翁并收获爱情的故事。"},
