@@ -9,15 +9,19 @@
         <i-grid-label>{{grid.title}}</i-grid-label>
       </i-grid-item>
     </i-grid>
-<i-panel :title="title_name">
-    <view style="padding: 15px;">
-      <i-card v-for="item in top" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
-          <view slot="content">{{item.remark}}</view>
-          <view slot="footer">{{item.actors}}</view>
-      </i-card>
-    </view>
-</i-panel>
-</div>
+    <i-panel :title="title_name">
+    <i-notice-bar icon="systemprompt" loop>
+    《宠爱》，将于2019年12月31日正式上映；《别告诉她》，将于2020年1月10日正式上映；
+    </i-notice-bar>
+        <view style="padding: 15px;">
+          <i-card v-for="item in top" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
+              <view slot="content">{{item.remark}}</view>
+              <view slot="footer">{{item.actors}}</view>
+          </i-card>
+        </view>
+    </i-panel>
+    <i-divider content="加载已经完成,没有其他数据"></i-divider>
+  </div>
 </template>
 
 <script>
